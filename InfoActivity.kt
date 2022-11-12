@@ -29,13 +29,3 @@ class InfoActivity : AppCompatActivity() {
         binding4.banner4.loadAd(adRequest)
     }
 }
-
-        /*setupLinkButton()
-    }
-    private fun setupLinkButton(){
-        val linkButton = findViewById<TextView>(R.id.btn_paypal)
-        linkButton.setOnClickListener {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.paypal.com/donate/?hosted_button_id=KATRNAHYGQDX6"))
-            startActivity(browserIntent)
-        }
-    }*/
