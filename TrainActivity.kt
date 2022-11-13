@@ -58,7 +58,7 @@ class TrainActivity : AppCompatActivity() {
     private fun initAds() {
         val adRequest1 = AdRequest.Builder().build()
 
-        InterstitialAd.load(this,"ca-app-pub-3940256099942544/1033173712", adRequest1, object : InterstitialAdLoadCallback() {
+        InterstitialAd.load(this,"ca-app-pub-XXXXXXXXXXXX/XXXXXXXXXXX", adRequest1, object : InterstitialAdLoadCallback() {
             override fun onAdLoaded(interstitialAd: InterstitialAd) {
                 inter = interstitialAd
             }
