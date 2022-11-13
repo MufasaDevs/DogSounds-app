@@ -119,7 +119,7 @@ class SoundsActivity : AppCompatActivity() {
     private fun initAds() {
         val adRequest1 = AdRequest.Builder().build()
 
-        InterstitialAd.load(this,"ca-app-pub-4967910143423086/6445870103", adRequest1, object : InterstitialAdLoadCallback() {
+        InterstitialAd.load(this,"ca-app-pub-XXXXXXXXXXXX/XXXXXXXXXX", adRequest1, object : InterstitialAdLoadCallback() {
             override fun onAdLoaded(interstitialAd: InterstitialAd) {
                 inter = interstitialAd
             }
